@@ -1,0 +1,15 @@
+flutter_native_splash:
+  # Match the dark-brown background used in SplashPage (AppColors.darkBrown)
+  color: "#2C1F0E"
+  image: assets/images/logo.png
+  # Fill 40% of the screen width — looks clean on all sizes
+  android: true
+  ios: true
+  web: false
+
+  # Android 12+ splash (uses the new SplashScreen API)
+  android_12:
+    color: "#2C1F0E"
+    image: assets/images/logo.png
+    # Android 12 icon area is 288×288 dp; keep the branding icon centred
+    icon_background_color: "#2C1F0E"
